@@ -139,6 +139,7 @@ function Login() {
                       <Input.Password
                         className="login__input"
                         placeholder="Mật khẩu"
+                        size="large"
                       />
                     </Form.Item>
                     <Form.Item label={null}>
