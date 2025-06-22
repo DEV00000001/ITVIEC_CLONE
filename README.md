@@ -1,53 +1,69 @@
-🧑‍💻 Landing Page Project - SoftwareM4
+## 💼 6. ITviec Clone – Job Recruitment Web App
 
-🔗 Live Demo Here : https://project-mini-1-taupe.vercel.app/
+[🔗 Live Demo](https://itviec-clone-eta.vercel.app/)
 
-📝 Introduction
+### 🔧 Tech Stack
 
-This is a simple Landing Page project built using pure HTML and CSS. The layout is inspired by modern software product websites, featuring a clean and clear structure.
+* ReactJS + SCSS
+* Redux, React Router
+* Ant Design, SwiperJS, TipTap
+* JSON Server (temporary backend)
 
-The project was created after 1 week of learning HTML & CSS, with the purpose of practicing fundamental concepts such as:
+### 🌟 Main Features
 
-Basic HTML structure
+👉 **For Job Seekers**
 
-UI design using CSS
+* Register / Login with cookie-based token storage
+* Browse job listings and detailed company information
+* Apply for jobs and view application history
 
-Responsive layout (not fully optimized yet)
+🛠 **For Employers**
 
-Implementing header, hero section, and feature section layouts
+* Manage job postings and candidate applications
+* Create job descriptions using a rich text editor (TipTap)
 
-📌 Technologies Used
+📦 **State Management**
 
-HTML5
+* Authentication, job data, and applications are managed via Redux
 
-CSS3
+### 📱 Responsive
 
-🚀 How to Run the Project
+* Fully responsive design that works smoothly across desktop, tablet, and mobile screens
 
-Just open the index.html file in your browser:
+---
 
-git clone https://github.com/your-username/project-mini-1.git
-cd project-mini-1
-# Open index.html in your browser
+### 📚 What I Learned
 
-Or visit the live version: https://project-mini-1-taupe.vercel.app
+* How to structure a real-world React project with professional folder organization (`pages/`, `services/`, `helpers/`, `reducers/`, etc.)
+* Managing global state using Redux
+* Connecting to and consuming a RESTful mock API (JSON Server)
+* Building modern UI with Ant Design, SwiperJS, and modal interactions
+* Integrating a rich-text editor (TipTap) for job content input
 
-💡 What I Learned
+---
 
-Better understanding of HTML structure
+### 📉 Areas for Improvement
 
-Styling and layout techniques with CSS
+* Lacks a real backend for complex logic (currently using JSON Server)
+* No cloud storage for images yet (currently using base64)
+* Codebase needs refactoring and better separation of logic (planned for the next version)
 
-Introduction to project management with Git and deploying via Vercel
+---
 
-📌 Next Steps
+### 🚀 Next Steps
 
-Improve mobile responsiveness
+👉 Integrate a real backend using Node.js + Express or Supabase/Firebase
+👉 Use Cloudinary or Firebase Storage for image uploads and rendering
+👉 Refactor code with Redux Toolkit (`createSlice`, `createAsyncThunk`)
+👉 Improve project structure and component logic separation
+👉 Add full PWA support for offline usage and better performance
 
-Add basic animations using CSS
+---
 
-Learn Flexbox and Grid for more advanced layouts
+### 📢 Contact
 
-📫 Contact
+Feel free to reach out if you have feedback or ideas!
 
-Feel free to reach out via GitHub if you have any feedback or want to connect! 😊
+---
+
+> *"Never stop learning – each project is a building block toward becoming a professional Front-end Developer."*
