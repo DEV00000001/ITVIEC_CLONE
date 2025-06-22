@@ -1,0 +1,26 @@
+.button-upload {
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  color: red;
+  font-weight: 500;
+  gap: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  &--custom {
+    font-size: 16px;
+    padding: 13px 26px;
+
+    &:hover {
+      color: red;
+    }
+  }
+  &:hover {
+    background-color: rgba(255, 0, 0, 0.113);
+  }
+  svg {
+    font-size: 18px;
+  }
+}

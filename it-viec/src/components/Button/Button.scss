@@ -1,0 +1,32 @@
+.button {
+  background-color: #ed1b2f;
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid #ed1b2f;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  min-width: 220px;
+  &:hover {
+    background-color: #c51325;
+  }
+  &:disabled {
+    background-color: #999999;
+    border-color: #999999;
+    cursor: not-allowed;
+  }
+  &--search {
+    padding: 8.5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  &--min {
+  }
+  &--max {
+    width: 100%;
+  }
+}

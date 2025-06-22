@@ -1,0 +1,70 @@
+.card-infor-employer {
+  box-shadow: 0px 6px 32px rgba(0, 0, 0, .08);
+  background-color: #ffffff;
+  color: black;
+  padding: 20px 15px;
+  font-size: 17px;
+  border-radius: 9px;
+
+  &__head {
+
+  }
+  &__head-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  &__logo {
+    width: 120px;
+    aspect-ratio: 1/1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__name {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &__title {
+      margin: 10px 0 5px 0;
+      font-size: 17px;
+      color: #414042;
+
+  }
+  &__body {
+
+  }
+  &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px dashed #ddd;
+      &--nodash {
+        border-bottom: none;
+      }
+  }
+  &__item-title {
+    color: #A6A6A6;
+
+  }
+  &__item-content {
+
+  }
+  @media (width <= 1200px) {
+  &__head-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    text-align: center;
+  }
+}
+  
+}

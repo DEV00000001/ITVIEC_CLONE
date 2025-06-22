@@ -1,0 +1,103 @@
+.job-search-detail {
+  &__head {
+    padding: 24px 24px 8px;
+    background-color: white;
+    &-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    &-left {
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      width: 100px;
+      aspect-ratio: 1/1;
+      overflow: hidden;
+      border-radius: 5px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      
+      }
+
+    }
+    &-right {
+      flex: 1;
+
+    }
+    &-name {
+      margin: 0 0 10px 0;
+      color: #121212;
+      font-size: 22px;
+      a {
+        color: #121212;
+        text-decoration: none;
+        &:hover {
+          color: red;
+        }
+      }
+
+
+    }
+    &-company {
+      color: #414042;
+      font-size: 16px;
+      &:hover {
+        color: #414042;
+        text-decoration: underline;
+      }
+
+    }
+    &-salary {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      gap: 5px;
+      color: #0ab305 ;
+      font-size: 16px;
+      svg {
+        font-size: 20px;
+      }
+
+    }
+  }
+  .card-job-head__wrap-button {
+    margin-bottom: 12px;
+  }
+  &__body {
+    padding: 24px;
+    background-color: white;
+    height: calc(100vh - 260px);
+    overflow-y: auto;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    svg {
+      color: rgb(166, 166, 166);
+      font-size: 18px;
+    }
+    span {
+      color: #414042;
+      margin-left: 5px;
+      flex: 1;
+    }
+  }
+  &__skill-wrap {
+    display: flex;
+    align-items: center;
+  }
+  &__text {
+    text-wrap: nowrap;
+    margin-right: 5px;
+  }
+  &__skills {
+    flex: 1;
+  }
+.job__list-tag {
+  margin: 0;
+}
+}

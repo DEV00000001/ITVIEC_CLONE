@@ -1,0 +1,35 @@
+.applied-jobs {
+  &__pagination {
+    padding: 20px 0;
+    li {
+      padding: 0 !important;
+    }
+    .ant-pagination-item {
+      border-color: #dedede;
+      min-width: 36px;
+      height: 36px;
+      line-height: 34px;
+      border-radius: 4px;
+      &-active {
+        background-color: red;
+        a {
+          color: white;
+        }
+        &:hover {
+          border-color: red;
+          a {
+            color: white;
+          }
+        }
+      }
+      &:not(.ant-pagination-item-active):hover {
+        background-color: #fff5f5;
+        border-color: red;
+
+        a {
+          color: red;
+        }
+      }
+    }
+  }
+}

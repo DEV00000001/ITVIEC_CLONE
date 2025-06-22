@@ -1,0 +1,121 @@
+.cascader {
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+  svg {
+    font-size: 20px;
+  }
+  &:hover {
+    & > .cascader__head {
+      color: white;
+    }
+    & > .cascader__arrow {
+      color: white;
+    }
+    & > .cascader__dropdown {
+      display: block;
+    }
+  }
+  &__dropdown {
+    display: none;
+    width: 893px;
+    height: 403px;
+    background-color: #121212;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    &-content {
+      display: flex;
+      height: 100%;
+    }
+    &-left {
+      width: 250px;
+      height: 100%;
+      border-right: 1px solid #ffffff1a;
+    }
+    &-right {
+      flex: 1;
+      position: relative;
+    }
+    &-child2 {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    &-item-child1 {
+      padding: 15px 10px !important;
+      border-bottom: 1px solid #ffffff1a;
+      a {
+        width: 100%;
+        height: 100%;
+        color: #a6a6a6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+      }
+      &.active {
+        background-color: #414042;
+        a {
+          color: white;
+        }
+      }
+      &:hover {
+        background-color: #414042;
+        a {
+          color: white;
+        }
+      }
+    }
+    &-item-child2 {
+      padding: 15px;
+      border-bottom: 3px solid transparent;
+      &:hover {
+        color: white;
+        background-color: #414042;
+      }
+      a {
+        color: #a6a6a6;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+      }
+    }
+    &-viewmore {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      display: none;
+
+      a {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        gap: 5px;
+        color: #a6a6a6;
+      }
+      &:hover {
+        & > a {
+          color: white;
+          background-color: #414042;
+        }
+      }
+      &.active {
+        display: block;
+      }
+    }
+  }
+}

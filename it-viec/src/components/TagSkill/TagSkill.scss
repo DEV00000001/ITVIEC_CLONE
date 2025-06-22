@@ -1,0 +1,16 @@
+.tag-skill {
+    padding: 4px 10px;
+    border-radius: 26px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    color: #414042;
+    cursor: pointer;
+    // margin: 0 5px 5px 0;
+    display: inline-block;
+    text-wrap: nowrap;
+    &:hover {
+      border-color: #414042;
+      color: #414042;
+    }
+  }

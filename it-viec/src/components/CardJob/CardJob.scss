@@ -1,0 +1,63 @@
+.card-job {
+  background-color: #FFFFFF;
+  border-radius: 19px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+  
+  &__head {
+      border-top-left-radius:19px;
+      border-top-right-radius:19px;
+      // background-color: rgba(255, 0, 0, 0.232);
+      padding: 10px ;
+  }
+  &__title {
+    
+  }
+  &__status {
+    background-color: #272121;
+    padding: 5px 7px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  &____time-created {
+
+  }
+  &__body {
+    padding: 10px ;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  &__skills {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  &__skill {
+    // color: black;
+    // background-color: #6B818C;
+    background-color: #443737;
+    padding: 5px 7px;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  &__button {
+    margin-top: 20px;
+    text-align: center;
+    button {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 21px;
+      border: none;
+      cursor: pointer;
+      background-color: #ddd;
+    }
+  }
+
+}

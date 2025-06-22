@@ -1,0 +1,58 @@
+.swiper-feedbacks {
+  &__itemSw {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+
+    &-content {
+      margin-bottom: 50px;
+      line-height: 1.7;
+    }
+    &-author {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-left {
+    }
+    &-name {
+      margin: 0;
+    }
+    &-role {
+      margin: 0;
+    }
+    &-right {
+      width: 67px;
+      height: 67px;
+      border: 1px solid #ddd;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  &__nav-pag {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    aspect-ratio:  1 / 1;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  &__pagination {
+    width: 50px;
+  }
+}

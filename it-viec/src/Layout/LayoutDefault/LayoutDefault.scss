@@ -1,0 +1,8 @@
+.layout-default {
+  @media (width < 1200px ) {
+    .ant-layout-footer {
+      padding: 0;
+    }
+  }
+
+}

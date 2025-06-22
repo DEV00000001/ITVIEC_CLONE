@@ -1,0 +1,25 @@
+.dashboard-sider {
+  color: white;
+  padding: 30px 15px;
+  background-color: #01081d;
+  height: 100%;
+  &__logout {
+    display: flex;
+    justify-content: end;
+    button {
+      color: red;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 10px;
+      font-size: 20px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      span {
+        font-size: 15px;
+      }
+    }
+
+  }
+}

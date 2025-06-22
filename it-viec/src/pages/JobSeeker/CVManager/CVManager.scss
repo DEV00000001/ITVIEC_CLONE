@@ -1,0 +1,84 @@
+.cv-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__text {
+    font-size: 16px;
+    color: #A6A6A6;
+    &--small {
+      font-size: 14px;
+      color: #121212;
+    }
+  }
+  &__block {
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    padding: 16px;
+    border-radius: 7px;
+    margin-top: 20px;
+    &--main {
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      margin: 10px 0 0 0;
+    }
+  }
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    svg {
+      color: red;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  &__main-title {
+    font-size: 18px;
+    color: #121212;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    &--custom {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }
+  &__title {
+    font-size: 16px;
+    color: #414240;
+  }
+  &__content {
+    font-size: 16px;
+    color: #121212;
+    font-weight: 600;
+    &--default {
+      color: #A6A6A6;
+    }
+  }
+  &__mail {
+    font-size: 16px;
+    &--close {
+      display: none;
+    }
+  }
+  &__note {
+    font-size: 14px;
+    color: #A6A6A6;
+    margin: 20px 0;
+    font-style: italic;
+
+  }
+  &__edit-form {
+    &--close {
+      display: none;
+    }
+  }
+}
+
+.devider {
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+}
+
+

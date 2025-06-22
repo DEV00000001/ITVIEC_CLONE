@@ -1,0 +1,26 @@
+:root {
+  --ant-font-family: "Lexend", sans-serif;
+  --font-family: "Lexend", sans-serif;
+  --i-body-line-height: 1.5;
+  --i-body-color: #121212;
+  --i-red: #ED1B2F;
+  --i-black: #121212;
+  --i-white: #FFFFFF;
+  --i-white-red: #FFF5F5;
+  --i-light-red: #FFDFDF;
+  --i-dark-red: #C82222;
+  --i-hyperlink: #0E2EED;
+  --i-rich-grey: #414042;
+  --i-dark-grey: #A6A6A6;
+  --i-silver-grey: #DEDEDE;
+  --i-light-grey: #F7F7F7;
+  --i-success-color: #0AB305;
+  --i-info-color: #085BDD;
+  --i-error-color: #F60D00;
+  --i-warning-color: #FF9119;
+  --i-light-success-color: #EAF9E9;
+  --i-light-info-color: #EAF0FA;
+  --i-light-error-color: #FEEEED;
+  --i-light-warning-color: #FFF4E9;
+  --i-body-font-size: 16px;
+}

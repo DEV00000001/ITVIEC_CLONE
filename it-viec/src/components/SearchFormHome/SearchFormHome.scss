@@ -1,0 +1,8 @@
+.search-form-home {
+  padding: 50px;
+    background: linear-gradient(to right, #000000, #330000);
+  color: white;
+  @media (width < 768px) {
+    padding: 20px;
+  }
+}

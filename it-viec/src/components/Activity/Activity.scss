@@ -1,0 +1,59 @@
+.activity {
+  margin-top: 20px;
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__icon {
+      position: relative;
+      font-size: 17px;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 5px;
+        height: 5px;
+        background-color: red;
+        border-radius: 50%;
+        right: 0px;
+        top: 0;
+      }
+    }
+  &__items {
+    margin-top: 20px;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  &__logo {
+      width: 40px;
+      aspect-ratio: 1/1;
+      border-radius: 12px;
+      background-color: rgba(255, 0, 0, 0.232);
+      margin-right: 10px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: red;
+      font-size: 20px;
+  }
+  &__body-item {
+      flex: 1;
+
+  }
+  &__notify {
+
+  }
+  &__action {
+    color: #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+    text-overflow: ellipsis;
+  }
+}
+
+

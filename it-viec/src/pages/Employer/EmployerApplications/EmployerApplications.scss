@@ -1,0 +1,7 @@
+.button--detail {
+  cursor: pointer;
+  color: blue;
+  &:hover {
+    text-decoration: underline;
+  }
+}

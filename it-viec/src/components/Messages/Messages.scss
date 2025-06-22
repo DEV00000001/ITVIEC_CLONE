@@ -1,0 +1,60 @@
+.msg {
+  margin-top: 20px;
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__icon {
+      position: relative;
+      font-size: 17px;
+      color: white;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 5px;
+        height: 5px;
+        background-color: red;
+        border-radius: 50%;
+        right: 0px;
+        top: 0;
+      }
+    }
+  &__items {
+    margin-top: 20px;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  &__avatar {
+      width: 40px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      background-color: #ddd;
+      margin-right: 10px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  }
+  &__body-item {
+      flex: 1;
+
+  }
+  &__name {
+
+  }
+  &__text {
+    color: #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+    text-overflow: ellipsis;
+  }
+}
+
+

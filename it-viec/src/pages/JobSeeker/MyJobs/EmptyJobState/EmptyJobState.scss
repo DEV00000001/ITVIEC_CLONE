@@ -1,0 +1,73 @@
+.job-empty-state {
+  &__notification {
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    font-size: 16px;
+    color: #121212;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #f2f2f272;
+    display: flex;
+    align-items: center;
+    padding: 20px 34px;
+  }
+  &__icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    color: #A6A6A6;
+  }
+  &__text {
+    font-size: 14px;
+    color: #414141;
+    margin: 0;
+  }
+  &__maincontent {
+    text-align: center;
+    // margin-top: 20px;
+    padding: 64px 0;
+    background-color: #FFFFFF;
+  }
+  &__img {
+    margin-bottom: 20px;
+    img {
+      width: 80px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+  }
+  &__no-jobs {
+    font-size: 16px;
+    color: #A6A6A6;
+    margin: 0;
+    padding: 20px 0;
+  }
+  @media (width <= 768px) {
+    &__notification {
+      padding: 10px 20px;
+      border-bottom: 1px solid #dedede;
+      &-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    &__maincontent {
+      padding: 32px 0;
+    }
+    &__img {
+      margin-bottom: 16px;
+    }
+    &__no-jobs {
+      font-size: 14px;
+      padding: 16px 0;
+    }
+    &__select {
+      padding: 5px 20px 10px 20px;
+    }
+
+
+  }
+}

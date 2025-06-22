@@ -1,0 +1,31 @@
+.tag-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 4px;
+  }
+  &--draft {
+    background-color: #F9DEB0;
+    color: #CB8E3C;
+  }
+  &--active {
+    background-color: #C3E9C9;
+    color: #46963E;
+  }
+  &--closed {
+    background-color: #F0CECB;
+    color: #AD3D35;
+    svg {
+      font-size: 20px;
+    }
+  }
+  &--expired {
+    background-color: #D9D9D9;
+    color: #040404;
+  }
+
+}

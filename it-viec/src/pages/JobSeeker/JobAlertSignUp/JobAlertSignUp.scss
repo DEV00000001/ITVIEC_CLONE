@@ -1,0 +1,22 @@
+// .test-align-text-icon {
+//   display: flex;
+//   align-items: baseline;
+//   svg {
+//     path {
+//       width: 100%;
+//       height: 100%;
+//     };
+//   }
+// }
+
+.test-align {
+  display: flex;
+  align-items: center;
+  &-icon {
+
+  }
+  &-text {
+
+  }
+
+}

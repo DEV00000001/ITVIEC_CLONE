@@ -1,0 +1,111 @@
+.employerLogin-form {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  max-width: 480px;
+  margin: 15vh auto 10vh auto;
+  ul,li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__left {
+    margin: auto 0;
+    .welcome {
+      margin-bottom: 30px;
+    }
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  &__logo {
+    width: 120px;
+    aspect-ratio: 355/85;
+    margin-left: 10px;
+    img {
+      width: 100%;
+    }
+  }
+  &__content {
+    margin-top: 30px;
+    &-title {
+      margin-top: 70px;
+    }
+    &-list {
+      li {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+      }
+    }
+    &-icon {
+      color: #0AB305;
+      margin-right: 5px;
+    }
+  }
+  &__remember-forget {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  &__contact {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    &-title {
+        margin-bottom: 10px;
+    }
+    &-list {
+      li {
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg {
+          color: #A6A6A6;
+        }
+
+      }
+
+    }
+  }
+
+}
+@media (width <= 1024px) {
+  .employerLogin-form {
+    max-width: 480px;
+    margin: 15vh auto 10vh auto;
+  }
+}
+@media (width <= 768px) {
+  .employerLogin-form {
+    max-width: 480px;
+    margin: 15vh auto 10vh auto;
+  }
+}
+@media (width <= 576px) {
+  .employerLogin-form {
+    max-width: 380px;
+    margin: 7vh auto 10vh auto;
+    &__title {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 13px;
+    }
+    &__contact {
+      font-size: 14px;
+    }
+  }
+}
+@media (width <= 480px) {
+  .employerLogin-form {
+    &__title {
+      font-size: 19px;
+    }
+  }
+}
+
