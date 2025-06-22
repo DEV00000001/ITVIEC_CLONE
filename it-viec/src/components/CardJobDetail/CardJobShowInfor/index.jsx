@@ -7,7 +7,7 @@ import TagSkill from "../../TagSkill";
 import { MdLocationCity } from "react-icons/md";
 import { GoClock } from "react-icons/go";
 import TipTap from "../../TipTapEditor/TipTap";
-import { getRelativeTime } from "../../../helpers/FormattedTime";
+import { getRelativeTime } from "../../../helpers/formattedTime";
 function CardJobShowInfor({job}) {
   job = job || {};
   const postedTime = getRelativeTime(job.postedAt);

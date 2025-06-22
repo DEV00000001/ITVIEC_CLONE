@@ -1,10 +1,5 @@
 .job-empty-state {
   &__notification {
-    &-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
     font-size: 16px;
     color: #121212;
     margin: 0;
@@ -13,6 +8,11 @@
     display: flex;
     align-items: center;
     padding: 20px 34px;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
   &__icon {
     width: 18px;
